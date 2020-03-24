@@ -285,6 +285,12 @@ header div.myphoto {
     header div.myphoto:hover {
         background-size: 130%;
     }
+
+
+    button.seemore {
+        bottom: 20%;
+        font-size: 18px;
+    }
 }
 
 @media (orientation: landscape) and (min-width: 1024px) {
