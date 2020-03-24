@@ -1,0 +1,704 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+html {
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+header {
+    position: relative;
+    background-color: #095C54;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+header div.header {
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    right: 5%;
+    max-width: 1920px;
+    color: white;
+    text-align: center;
+}
+
+
+div h1 {
+    padding: 20px;
+    border-bottom: 2px solid white;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+div h2 {
+    margin-top: 30px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+
+button.seemore {
+    position: absolute;
+    bottom: 6%;
+    left: 20%;
+    right 20%;
+    width: 60vw;
+    padding: 10px 40px;
+    border: 1px solid white;
+    background-color: #095C54;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    transition: .4s;
+}
+
+button.seemore:hover {
+    border: 1px solid white;
+    background-color: white;
+    color: #095C54;
+}
+
+header div.myphoto {
+    position: absolute;
+    top: 43%;
+    left: 18%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px;
+    background-image: url(../images/myphoto.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (min-width: 360px) {
+
+    button.seemore {
+        bottom: 8%;
+
+    }
+
+    header div.myphoto {
+        top: 40%;
+        left: 15%;
+        width: 250px;
+        height: 250px;
+
+    }
+}
+
+@media (min-width: 375px) {
+
+    header div.myphoto {
+        top: 40%;
+        left: 16%;
+        width: 250px;
+        height: 250px;
+
+    }
+}
+
+@media (min-width: 410px) {
+
+    header div.myphoto {
+        top: 35%;
+        left: 14%;
+        width: 300px;
+        height: 300px;
+
+    }
+
+}
+
+@media (min-width: 490px) {
+
+    header div.myphoto {
+        top: 35%;
+        left: 18%;
+        width: 340px;
+        height: 340px;
+    }
+
+}
+
+@media (min-width: 600px) {
+
+    header div.myphoto {
+        left: 23%;
+    }
+
+}
+
+@media (min-width: 660px) {
+
+    header div.myphoto {
+        left: 25%;
+    }
+
+}
+
+
+@media (min-width: 760px) {
+
+    header div.header {
+        top: 5%;
+    }
+
+    div h1 {
+        font-size: 60px;
+    }
+
+    div h2 {
+        font-size: 50px;
+    }
+
+
+    button.seemore {
+        font-size: 20px;
+    }
+
+    header div.myphoto {
+        top: 40%;
+        left: 24%;
+        width: 400px;
+        height: 400px;
+    }
+}
+
+
+@media (orientation: landscape) {
+
+
+    header div.header {
+        top: 16%;
+        left: 5%;
+        width: 50%;
+
+    }
+
+    div h1 {
+        padding: 10px;
+        border-bottom: 2px solid white;
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+
+    div h2 {
+        margin-top: 20px;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+
+    button.seemore {
+        bottom: 16%;
+        left: 15%;
+        width: 32%;
+        font-size: 14px;
+    }
+
+    header div.myphoto {
+        top: 15%;
+        left: 50%;
+        width: 230px;
+        height: 230px;
+        border-radius: 50%;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 640px) {
+
+    header div.header {
+        top: 22%;
+        left: 5%;
+        width: 50%;
+    }
+
+    div h1 {
+        font-size: 30px;
+    }
+
+    div h2 {
+        font-size: 24px;
+    }
+
+
+    button.seemore {
+        bottom: 48%;
+        font-size: 18px;
+    }
+
+    header div.myphoto {
+        width: 340px;
+        height: 340px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 810px) {
+
+    header div.header {
+        top: 20%;
+    }
+
+    div h1 {
+        font-size: 36px;
+    }
+
+    div h2 {
+        font-size: 28px;
+    }
+
+    header div.myphoto {
+        left: 55%;
+        width: 340px;
+        height: 340px;
+        background-size: 115%;
+        transition: .6s;
+    }
+
+    header div.myphoto:hover {
+        background-size: 130%;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1024px) {
+
+
+    div h1 {
+        padding: 10px;
+        font-size: 60px;
+        letter-spacing: 5px;
+    }
+
+    div h2 {
+        font-size: 50px;
+        letter-spacing: 3px;
+    }
+
+
+    button.seemore {
+        bottom: 32%;
+        left: 15%;
+        width: 32%;
+        font-size: 30px;
+    }
+
+    header div.myphoto {
+        top: 20%;
+        left: 55%;
+        width: 360px;
+        height: 360px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1400px) {
+
+    div h1 {
+        font-size: 65px;
+    }
+
+    div h2 {
+        font-size: 54px;
+    }
+
+    button.seemore {
+        bottom: 32%;
+        left: 17%;
+        width: 26%;
+    }
+
+    header div.myphoto {
+        top: 20%;
+        left: 60%;
+        width: 400px;
+        height: 400px;
+    }
+}
+
+/* 2nd section - about me  */
+
+section.about {
+    padding: 0 0 20%;
+    background-image: url(../images/shingle-423014_1920.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1.tittle {
+    padding: 7% 0;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+section.about p {
+    padding: 40px 10%;
+    margin: 0 auto;
+    max-width: 1240px;
+    background-color: rgba(255, 255, 255, .6);
+    line-height: 18px;
+    font-size: 16px;
+    text-align: left;
+    text-indent: 10%;
+    color: rgb(30, 30, 30);
+}
+
+@media (min-width: 410px) {
+    h1.tittle {
+        line-height: 36px;
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 660px) {
+    h1.tittle {
+        line-height: 70px;
+    }
+
+    section.about p {
+        padding: 5% 10%;
+        line-height: 20px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 760px) {
+    h1.tittle {
+        font-size: 40px;
+    }
+
+    section.about p {
+        padding: 5% 10%;
+        line-height: 22px;
+        font-size: 20px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1024px) {
+
+    section.about {
+        padding: 0 0 25vh;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    h1.tittle {
+        padding: 0;
+        line-height: 25vh;
+        font-size: 48px;
+    }
+
+    section.about p {
+        line-height: 26px;
+        font-size: 24px;
+    }
+}
+
+/* 3rd section - skills  */
+
+section.tools {
+    position: relative;
+    padding: 0 30px 10vh;
+    max-width: 1240px;
+}
+
+section.tools h1.tittle {
+    line-height: 34px;
+    color: rgb(30, 30, 30);
+}
+
+section.tools div.tool {
+    overflow: hidden;
+    float: left;
+    padding: 5% 10%;
+    margin: 0 auto;
+    width: 33%;
+}
+
+section.tools div.tool img {
+    display: block;
+    margin: 0 auto 5%;
+    width: 100%;
+    height: 100%;
+}
+
+section.tools div.tool p {
+    padding-left: 15%;
+    line-height: 18px;
+    font-size: 16px;
+    text-align: center;
+}
+
+@media (min-width: 760px) {
+    section.tools div.tool p {
+        padding-left: 20%;
+        line-height: 22px;
+        font-size: 20px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1024px) {
+    section.tools {
+        padding: 0 30px 10vh;
+        margin: 0 auto;
+        max-width: 1240px;
+    }
+
+    section.tools h1.tittle {
+        line-height: 25vh;
+    }
+
+
+    section.tools div.tool img {
+        width: 80%;
+        height: 80%;
+    }
+
+    section.tools div.tool p {
+        padding-left: 0;
+        line-height: 26px;
+        font-size: 24px;
+    }
+
+    section.tools div.tool {
+        transition: .8s;
+    }
+
+    section.tools div.tool:hover {
+        background-color: #095C54;
+        cursor: default;
+    }
+}
+
+/* 4th section - projects */
+
+section.portfolio {
+    float: left;
+    background-color: rgb(220, 220, 220);
+}
+
+.portfolio .web img {
+    padding-top: 5%;
+    margin: 0 5%;
+    width: 90%;
+}
+
+.portfolio .tittle {
+    color: rgb(30, 30, 30);
+}
+
+.web,
+.description {
+    padding: 0 10%;
+    margin: 0 auto;
+    max-width: 1240px;
+    text-align: justify;
+}
+
+.description h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.description p {
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    line-height: 18px;
+    font-size: 16px;
+}
+
+@media (min-width: 660px) {
+
+    .description h2 {
+        font-size: 30px
+    }
+
+    .description p {
+        line-height: 20px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 760px) {
+
+    .portfolio .web {
+        width: 70%;
+    }
+
+    .description h2 {
+        font-size: 32px
+    }
+
+    .description p {
+        padding-bottom: 70px;
+        line-height: 22px;
+        font-size: 20px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1024px) {
+
+    .portfolio {
+        padding: 0 10%;
+    }
+
+    .project {
+        float: left;
+        width: 33%;
+    }
+
+    .description h2 {
+        line-height: 36px;
+        font-size: 34px;
+    }
+
+    .description p {
+        line-height: 24px;
+        font-size: 22px;
+        text-align: left;
+    }
+
+
+    .portfolio .web {
+        padding-top: 5%;
+        margin: 0 5%;
+        width: 90%;
+    }
+
+    .project:hover p {
+        text-decoration: underline;
+    }
+}
+
+
+/*5th section - contact*/
+
+.contact h1 {
+    color: rgb(30, 30, 30);
+}
+
+
+.forms form input {
+    padding: 12px;
+    border: 1px solid rgb(30, 30, 30);
+    margin-left: 10%;
+    margin-top: 10px;
+    width: 80%;
+    height: 18px;
+}
+
+.forms form textarea {
+    padding: 12px;
+    border: 1px solid rgb(30, 30, 30);
+    margin-left: 10%;
+    margin-top: 10px;
+    width: 80%;
+    height: 100px;
+}
+
+.forms form button {
+    padding: 12px;
+    border: 1px solid rgb(30, 30, 30);
+    margin-left: 10%;
+    margin-top: 10px;
+    margin-bottom: 5%;
+    width: 80%;
+    height: 40px;
+    background-color: white;
+    line-height: 20px;
+    font-size: 14px;
+    transition: .4s;
+}
+
+.socials {
+    padding-bottom: 10vh;
+}
+
+
+.social img {
+    float: left;
+    border: 0px solid black;
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-top: 5%;
+    height: 38px;
+    background-color: white;
+}
+
+.social span {
+    float: left;
+    margin-left: 15px;
+    line-height: 72px;
+    font-size: 16px;
+}
+
+.social a {
+    float: left;
+    margin-left: 15px;
+    line-height: 72px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Saira Condensed', sans-serif;
+    color: rgb(30, 30, 30);
+}
+
+
+@media (min-width: 720px) {
+
+    .forms {
+        margin: 0 auto;
+        max-width: 640px;
+    }
+
+    .forms form,
+    .forms .socials {
+        float: left;
+        padding-bottom: 100px;
+        width: 50%;
+    }
+
+    .forms form input,
+    .forms form textarea,
+    .forms form button {
+        margin-bottom: 15px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1024px) {
+    .forms {
+        padding-left: 10vh;
+        margin: 0 auto;
+        max-width: 1024px;
+    }
+
+    .forms form button:hover {
+        background-color: #095C54;
+        color: white;
+    }
+}
+
+/* Footer */
+
+footer p {
+    padding: 12px;
+    margin-top: 5%;
+    background-color: #095C54;
+    line-height: 18px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
