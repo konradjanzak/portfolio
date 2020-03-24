@@ -250,13 +250,13 @@ header div.myphoto {
 
 
     button.seemore {
-        bottom: 48%;
+        bottom: 25%;
         font-size: 18px;
     }
 
     header div.myphoto {
-        width: 340px;
-        height: 340px;
+        width: 250px;
+        height: 250px;
     }
 }
 
@@ -276,8 +276,8 @@ header div.myphoto {
 
     header div.myphoto {
         left: 55%;
-        width: 340px;
-        height: 340px;
+        width: 280px;
+        height: 280px;
         background-size: 115%;
         transition: .6s;
     }
@@ -312,8 +312,8 @@ header div.myphoto {
     header div.myphoto {
         top: 20%;
         left: 55%;
-        width: 360px;
-        height: 360px;
+        width: 400px;
+        height: 400px;
     }
 }
 
@@ -336,8 +336,6 @@ header div.myphoto {
     header div.myphoto {
         top: 20%;
         left: 60%;
-        width: 400px;
-        height: 400px;
     }
 }
 
