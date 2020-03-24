@@ -36,13 +36,13 @@ header div.header {
 div h1 {
     padding: 20px;
     border-bottom: 2px solid white;
-    font-size: 40px;
+    font-size: 36px;
     letter-spacing: 3px;
 }
 
 div h2 {
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 24px;
     letter-spacing: 2px;
     font-weight: 400;
 }
@@ -57,7 +57,7 @@ button.seemore {
     padding: 10px 40px;
     border: 1px solid white;
     background-color: #095C54;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     color: white;
     transition: .4s;
@@ -72,9 +72,9 @@ button.seemore:hover {
 header div.myphoto {
     position: absolute;
     top: 43%;
-    left: 18%;
-    width: 200px;
-    height: 200px;
+    left: 25%;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     box-shadow: 0px 0px 1px;
     background-image: url(../images/myphoto.png);
@@ -101,11 +101,25 @@ header div.myphoto {
 
 @media (min-width: 375px) {
 
+    div h1 {
+        padding: 20px;
+        border-bottom: 2px solid white;
+        font-size: 40px;
+        letter-spacing: 3px;
+    }
+    
+    div h2 {
+        margin-top: 30px;
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-weight: 400;
+    }
+
     header div.myphoto {
         top: 40%;
-        left: 16%;
-        width: 250px;
-        height: 250px;
+        left: 22%;
+        width: 200px;
+        height: 200px;
 
     }
 }
@@ -332,6 +346,7 @@ header div.myphoto {
 section.about {
     padding: 0 0 20%;
     background-image: url(../images/shingle-423014_1920.jpg);
+    background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
