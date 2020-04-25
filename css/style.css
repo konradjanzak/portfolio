@@ -283,6 +283,7 @@ header div.myphoto {
     }
 
     header div.myphoto:hover {
+        transform: rotate(5deg);
         background-size: 130%;
     }
 
